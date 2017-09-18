@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'libsscore_Example' do
+  pod 'libsscore', :path => '../'
+
+  target 'libsscore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
