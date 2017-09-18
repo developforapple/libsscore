@@ -39,7 +39,8 @@
 
 #include <poll.h>
 
-void inline_size
+//void
+inline_size
 pollidx_init (int *base, int count)
 {
   /* consider using memset (.., -1, ...), which is practically guaranteed

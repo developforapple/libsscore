@@ -43,7 +43,8 @@
 #include <string.h>
 #include <errno.h>
 
-void inline_speed
+//void
+inline_speed
 kqueue_change (EV_P_ int fd, int filter, int flags, int fflags)
 {
   ++kqueue_changecnt;
