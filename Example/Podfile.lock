@@ -1,6 +1,8 @@
 PODS:
+  - libev (4.15.0)
   - libsodium (1.0.12)
   - libsscore (0.1.0):
+    - libev (~> 4.15.0)
     - libsodium (~> 1.0.12)
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
   - OpenSSL-for-iOS (1.0.2.d.1)
@@ -13,8 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  libev: 3d707424e53d6a4469fd5f1e5a35377f1ea97262
   libsodium: 9a8faa5ef2fa0d2d57bd7f7d79bf8fb7c1a9f0ea
-  libsscore: dc6f3f6030d41ab24df85e05aedb8b004efe96b6
+  libsscore: c05e4330b3e6a223e4a562a32a3557a579c65559
   OpenSSL-for-iOS: d7a30add88a1969b052135adbe48452af231ed32
 
 PODFILE CHECKSUM: 236792e1f2ca35062d22eb78b63164863865b46b

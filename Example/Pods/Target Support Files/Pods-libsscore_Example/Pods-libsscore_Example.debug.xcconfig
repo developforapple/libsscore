@@ -1,9 +1,9 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/OpenSSL-for-iOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "$(PODS_ROOT)/libsodium/src/libsodium/include/sodium" "$(PODS_ROOT)/libsodium/src/libsodium/include" $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/OpenSSL-for-iOS" "${PODS_ROOT}/Headers/Public/libsodium" "${PODS_ROOT}/Headers/Public/libsscore"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/libsodium" "$PODS_CONFIGURATION_BUILD_DIR/libsscore"
-OTHER_CFLAGS = -DNATIVE_LITTLE_ENDIAN=1 -DHAVE_MADVISE -DHAVE_MMAP -DHAVE_MPROTECT -DHAVE_POSIX_MEMALIGN -DHAVE_WEAK_SYMBOLS $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/OpenSSL-for-iOS" -isystem "${PODS_ROOT}/Headers/Public/libsodium" -isystem "${PODS_ROOT}/Headers/Public/libsscore"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"libsodium" -l"libsscore" -framework "openssl"
+HEADER_SEARCH_PATHS = $(PODS_ROOT)/libev/include/ "$(PODS_ROOT)/libsodium/src/libsodium/include/sodium" "$(PODS_ROOT)/libsodium/src/libsodium/include" $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/OpenSSL-for-iOS" "${PODS_ROOT}/Headers/Public/libev" "${PODS_ROOT}/Headers/Public/libsodium" "${PODS_ROOT}/Headers/Public/libsscore"
+LIBRARY_SEARCH_PATHS = $(inherited) $(PODS_ROOT)/libev/lib "$PODS_CONFIGURATION_BUILD_DIR/libsodium" "$PODS_CONFIGURATION_BUILD_DIR/libsscore"
+OTHER_CFLAGS = -DNATIVE_LITTLE_ENDIAN=1 -DHAVE_MADVISE -DHAVE_MMAP -DHAVE_MPROTECT -DHAVE_POSIX_MEMALIGN -DHAVE_WEAK_SYMBOLS $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/OpenSSL-for-iOS" -isystem "${PODS_ROOT}/Headers/Public/libev" -isystem "${PODS_ROOT}/Headers/Public/libsodium" -isystem "${PODS_ROOT}/Headers/Public/libsscore"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ev-ios" -l"libsodium" -l"libsscore" -framework "openssl"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
