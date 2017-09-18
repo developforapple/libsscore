@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E636A6F5774478AEDA760A4 /* Pods_libsscore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D4F83915E121AC0FF699DD /* Pods_libsscore_Tests.framework */; };
+		3C5CE4877F2E7824BF2CE06D /* libPods-libsscore_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F87D3DF8EA08F862C7135F8 /* libPods-libsscore_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8A33FB33EAEC7F359F8EC33D /* Pods_libsscore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3732CF2322896FE75BF240B0 /* Pods_libsscore_Example.framework */; };
+		BB5AFE1959B6F9DEFC3CA63B /* libPods-libsscore_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42213A35D8091A58D33BF51C /* libPods-libsscore_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		213C658F77AF9A8B9E52EE12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		29D4F83915E121AC0FF699DD /* Pods_libsscore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libsscore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		213C658F77AF9A8B9E52EE12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		35C8A52EBC790C58C16FB22B /* Pods-libsscore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libsscore_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libsscore_Example/Pods-libsscore_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3732CF2322896FE75BF240B0 /* Pods_libsscore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libsscore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42213A35D8091A58D33BF51C /* libPods-libsscore_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libsscore_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		447C8FC95A3EB846764DD965 /* Pods-libsscore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libsscore_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-libsscore_Example/Pods-libsscore_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F87D3DF8EA08F862C7135F8 /* libPods-libsscore_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libsscore_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* libsscore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libsscore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A838F06D95F6B759C2233A7A /* Pods-libsscore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libsscore_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libsscore_Tests/Pods-libsscore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADDF8AF347FD3D979498F4B6 /* Pods-libsscore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libsscore_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-libsscore_Tests/Pods-libsscore_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D60679A9286F707CF3A0F0C0 /* libsscore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = libsscore.podspec; path = ../libsscore.podspec; sourceTree = "<group>"; };
-		DCD86CF4AA5DB9CAD26E1780 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D60679A9286F707CF3A0F0C0 /* libsscore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libsscore.podspec; path = ../libsscore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCD86CF4AA5DB9CAD26E1780 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8A33FB33EAEC7F359F8EC33D /* Pods_libsscore_Example.framework in Frameworks */,
+				BB5AFE1959B6F9DEFC3CA63B /* libPods-libsscore_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3E636A6F5774478AEDA760A4 /* Pods_libsscore_Tests.framework in Frameworks */,
+				3C5CE4877F2E7824BF2CE06D /* libPods-libsscore_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3732CF2322896FE75BF240B0 /* Pods_libsscore_Example.framework */,
-				29D4F83915E121AC0FF699DD /* Pods_libsscore_Tests.framework */,
+				42213A35D8091A58D33BF51C /* libPods-libsscore_Example.a */,
+				5F87D3DF8EA08F862C7135F8 /* libPods-libsscore_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -479,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

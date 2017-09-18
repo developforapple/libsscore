@@ -1,0 +1,22 @@
+PODS:
+  - libsodium (1.0.12)
+  - libsscore (0.1.0):
+    - libsodium (~> 1.0.12)
+    - OpenSSL-for-iOS (~> 1.0.2.d.1)
+  - OpenSSL-for-iOS (1.0.2.d.1)
+
+DEPENDENCIES:
+  - libsscore (from `../`)
+
+EXTERNAL SOURCES:
+  libsscore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libsodium: 9a8faa5ef2fa0d2d57bd7f7d79bf8fb7c1a9f0ea
+  libsscore: dc6f3f6030d41ab24df85e05aedb8b004efe96b6
+  OpenSSL-for-iOS: d7a30add88a1969b052135adbe48452af231ed32
+
+PODFILE CHECKSUM: 236792e1f2ca35062d22eb78b63164863865b46b
+
+COCOAPODS: 1.2.1

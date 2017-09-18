@@ -1,0 +1,30 @@
+{
+  "name": "libsscore",
+  "version": "0.1.0",
+  "summary": "libsscore description none",
+  "description": "description none.description none.description none.",
+  "homepage": "https://github.com/developforapple",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "authors": {
+    "developforapple": "developforapple@163.com"
+  },
+  "source": {
+    "git": "https://github.com/developforapple@163.com/libsscore.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "libsscore/Classes/**/*",
+  "dependencies": {
+    "libsodium": [
+      "~> 1.0.12"
+    ],
+    "OpenSSL-for-iOS": [
+      "~> 1.0.2.d.1"
+    ]
+  }
+}
